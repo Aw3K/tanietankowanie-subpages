@@ -1,0 +1,172 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #191d21;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+input {
+  border: 2px solid #b393d3;
+  border-radius: 5px;
+  text-align: left;
+  color: #b393d3;
+  margin: 5px;
+  width: 100px;
+}
+
+.baner {
+  width: 100%;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form {
+  border: 4px solid #553c9a;
+  max-width: 250px;
+  margin: 10px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 0px;
+}
+
+.datalist {
+  margin: 20px auto 20px auto;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 0px;
+  overflow-y: auto;
+  display: block;
+}
+
+p {
+  margin: 0px 5px 0px 5px;
+  color: black;
+  font-size: 110%;
+  font-family: Impact;
+  transition: 1s all;
+}
+
+form {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  background-image: linear-gradient(to left, #553c9a, #b393d3);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-align: center;
+  margin: 0;
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 75px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 45px;
+    font-weight: 300;
+  }
+}
+
+#imageFrame {
+  width: 80%;
+  height: auto;
+  padding: 0px;
+  margin: 0px auto;
+  margin: 50px auto;
+}
+
+#imageNumber {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  background-color: black;
+  border-radius: 0px 0px 10px 0px;
+  color: white;
+  width: 50px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+#imageDataField {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -1px;
+  background-color: black;
+  border-radius: 0px 0px 10px 10px;
+  color: white;
+  width: 80%;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  border: 1px solid white;
+}
+
+#leftChange,
+#rightChange {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  border: 1px solid white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 70%;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#deleteImage {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  border: 1px solid white;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 70%;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+#leftChange {
+  left: -1px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#rightChange {
+  right: -1px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+}
+
+.textB {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  background-color: #191d21;
+}
